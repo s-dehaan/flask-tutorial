@@ -28,9 +28,9 @@
 			]
 		}
 	},
-	"forwardPorts": [
-		5000
-	],
+	// "forwardPorts": [
+	// 	5000
+	// ],
 	"postCreateCommand": "if [ -s requirements.txt ]; then pip3 install -r requirements.txt; fi",
 	"remoteUser": "vscode"
 }

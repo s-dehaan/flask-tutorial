@@ -5,10 +5,10 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ../.:/workspace
-    expose:
-      - "5000"
-    ports:
-      - "5000:5000"
+    # expose:
+    #   - "5000"
+    # ports:
+    #   - "5000:5000"
     networks:
       - front-tier
     command: /bin/sh -c "while sleep 1000; do :; done"
