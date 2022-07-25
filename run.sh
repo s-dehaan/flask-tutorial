@@ -3,4 +3,4 @@
 export FLASK_ENV=development
 export FLASK_APP=flaskr
 
-flask run
+flask run --port=8080
